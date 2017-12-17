@@ -8,6 +8,6 @@ With my team, we managed to create a simple API on hyperledger in short times bu
 
 ## Ionic Part
 
-Very simple Ionic 2 project. Don't take intention to the code, Css and Html is very ugly, in fact I used Ionic creator (a drag and drop solution that allows to generate the app source code) in order to gain some times and then did some modifications on the resulted code.
+Very simple Ionic 2 project. Don't take intention to the code, Css and Html is very ugly. In fact I used Ionic creator (a drag and drop solution that allows to generate the app source code) in order to gain some times and then did some modifications on the resulted code.
 
 ![](https://media.giphy.com/media/3ohs7X8AQamdchrHyw/giphy.gif)
