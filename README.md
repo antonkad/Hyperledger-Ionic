@@ -1,6 +1,6 @@
 # Workshop Project
 
-Project during school's workshop. During 5 days we had to create something using the blockchain and Hyperledger. With my team we chose to do a voting app, aimed to be used in corporates.
+Small project during school's workshop. During 5 days we had to create something using the blockchain and Hyperledger. With my team we chose to do a voting app, aimed to be used in corporates.
 
 ## Hyperledger
 
