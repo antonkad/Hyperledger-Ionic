@@ -1,0 +1,19 @@
+/**
+ * User model file
+ */
+namespace org.votechain.user
+
+asset User identified by id {
+  o String id
+  o String nom
+  o String prenom
+  o String password
+}
+
+// Add a vote for a user
+transaction Vote {
+  --> User user
+  o String password
+  o String poll
+  o String option
+}

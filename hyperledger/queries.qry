@@ -1,0 +1,31 @@
+/**
+ * Queries file
+ */
+
+query selectOptionById {
+  description: "Select an option based on its id"
+  statement:
+      SELECT org.votechain.option.Option
+          WHERE (id==_$id)
+}
+
+query selectPollById {
+  description: "Select a poll based on its id"
+  statement:
+      SELECT org.votechain.poll.Poll
+          WHERE (id==_$id)
+}
+
+query selectVote {
+  description: "Select a vote based on a user and a poll"
+  statement:
+      SELECT org.votechain.user.Vote
+          WHERE (user==_$user AND poll==_$poll)
+}
+
+query selectOptionsByPoll {
+  description: "Select all options available for a given poll"
+  statement:
+    SELECT org.votechain.option.Option
+        WHERE (poll==_$poll)
+}

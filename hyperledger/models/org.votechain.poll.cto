@@ -1,0 +1,11 @@
+/**
+ * Poll model file
+ */
+namespace org.votechain.poll
+
+asset Poll identified by id {
+  o String id
+  o String intitule
+  o String description
+  o Boolean actif
+}

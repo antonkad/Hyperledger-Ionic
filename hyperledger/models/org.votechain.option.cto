@@ -1,0 +1,12 @@
+/**
+ * Option model file
+ */
+namespace org.votechain.option
+
+asset Option identified by id {
+  o String id
+  o String intitule
+  o String description
+  o String poll
+  o Integer count default=0
+}
